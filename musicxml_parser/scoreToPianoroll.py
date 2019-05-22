@@ -20,8 +20,8 @@ import xml.sax
 import re
 import os
 import tempfile
-from musicxml_parser.smooth_dynamic import smooth_dyn
-from musicxml_parser.totalLengthHandler import TotalLengthHandler
+from smooth_dynamic import smooth_dyn
+from totalLengthHandler import TotalLengthHandler
 
 mapping_step_midi = {
     'C': 0,
